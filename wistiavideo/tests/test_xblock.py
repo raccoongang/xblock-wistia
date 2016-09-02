@@ -22,7 +22,7 @@ class WistiaXblockTests(WistiaXblockBaseTests, unittest.TestCase):
     def test_media_id_property(self):
         xblock = self.make_xblock()
         xblock.href = 'https://example.wistia.com/medias/12345abcde'
-        assert xblock.media_id == '12345abcde'
+        assert_equals(xblock.media_id, '12345abcde')
 
     def test_student_view(self):
         xblock = self.make_xblock()
