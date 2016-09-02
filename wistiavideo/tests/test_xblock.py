@@ -47,8 +47,7 @@ class WistiaXblockValidationTests(WistiaXblockBaseTests, unittest.TestCase):
 
             assert_false(validation.add.called)
 
-    @patch('xblock.validation.ValidationMessage')
-    def test_validate_incorrect_inputs(self, ValidationMessage):
+    def test_validate_incorrect_inputs(self):
         xblock = self.make_xblock()
 
         data = Mock(href='http://youtube.com/watch?v=something')
