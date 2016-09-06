@@ -15,7 +15,7 @@ settings:
    *Advanced Settings* in the top menu.
 1. Check for the *Advanced Module List* policy key, and add
    `"wistiavideo"` in the policy value list.
-   ![Advanced Module List](https://raw.githubusercontent.com/z4y4ts/xblock-wistia/docs/doc/img/advanced_settings.png)
+   ![Advanced Module List](doc/img/advanced_settings.png)
 
 1. Click on the *Save changes* button.
 
@@ -23,11 +23,11 @@ settings:
 
 To add Wistia video block to a unit, choose *Wistia video*From the *Advanced Components* list int the Studio.
 
-![Add Wistia video Xblock](https://raw.githubusercontent.com/z4y4ts/xblock-wistia/docs/doc/img/wistia_video_add_xblock.png)
+![Add Wistia video Xblock](doc/img/wistia_video_add_xblock.png)
 
 Click the *Edit* button to open up a form where you can enter module title and avideo url address.
 
-![Edit Wistia video Xblock](https://raw.githubusercontent.com/z4y4ts/xblock-wistia/docs/doc/img/wistia_video_edit.png)
+![Edit Wistia video Xblock](doc/img/wistia_video_edit.png)
 
 ## Running Tests
 
