@@ -8,7 +8,7 @@ pip install -e "git+https://github.com/appsembler/xblock-wistia.git#egg=wistiavi
 ```
 
 ## Enabling in Studio
-You can enable the discussion xblock in studio through the advanced
+You can enable the Wistia xblock in studio through the advanced
 settings:
 
 1. From the main page of a specific course, click on *Settings*,
@@ -20,6 +20,16 @@ settings:
 1. Click on the *Save changes* button.
 
 ## Usage
+
+Before adding wistia xblock to your course you need to have video uploaded to the Wistia.
+
+You can get video url for the Xblock directly from your browser's address bar.
+
+![Wistia video URL](doc/img/wistia_video_url.png)
+
+For better students experience make sure all player controls are enabled and video captions are uploaded.
+
+![Wistia customize video](doc/img/wistia_customize_video.png)
 
 To add Wistia video block to a unit, choose *Wistia video*From the *Advanced Components* list int the Studio.
 
@@ -36,5 +46,7 @@ nosetests wistiavideo
 ```
 
 ## License
+
+The code in this repository is licensed under the GPL v3 licence unless otherwise noted.
 
 Please see `LICENSE` file for details.
